@@ -17,14 +17,20 @@ def readCSV(file, classType=None, delimiter=None):
         return result
 
 
+def run(prob, myInput):
+    solution = prob(myInput)
+    print(solution.p1())
+    print(solution.p2())
+
+
 class AoCProblem:
     def __init__(self, myInput):
+        self.values = self.parseInput(self.readInput(myInput))
+
+    def readInput(self, myInput):
         pass
 
-    def readInput(self):
-        pass
-
-    def parseInput(self):
+    def parseInput(self, myInput):
         pass
 
     def p1(self):
