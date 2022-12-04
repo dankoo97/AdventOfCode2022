@@ -12,9 +12,6 @@ class Day02 (AdventOfCodeBase.AoCProblem):
                 gameRound.append(line.split())
         return gameRound
 
-    def parseInput(self, myInput):
-        return myInput
-
     def p1(self):
         score = 0
         points = {

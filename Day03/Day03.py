@@ -13,9 +13,6 @@ class Day03 (AdventOfCodeBase.AoCProblem):
                 result.append(line)
             return result
 
-    def parseInput(self, myInput):
-        return myInput
-
     def p1(self):
         sum = 0
         for line in self.values:

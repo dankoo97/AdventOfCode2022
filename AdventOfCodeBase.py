@@ -31,7 +31,7 @@ class AoCProblem:
         pass
 
     def parseInput(self, myInput):
-        pass
+        return myInput
 
     def p1(self):
         pass
