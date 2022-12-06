@@ -2,8 +2,6 @@ import AdventOfCodeBase
 
 
 class Day02 (AdventOfCodeBase.AoCProblem):
-    def __init__(self, myInput):
-        super().__init__(myInput)
 
     def readInput(self, myInput):
         with open(myInput, 'r') as myFile:

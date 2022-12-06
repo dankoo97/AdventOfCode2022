@@ -2,8 +2,6 @@ import AdventOfCodeBase
 
 
 class Day01 (AdventOfCodeBase.AoCProblem):
-    def __init__(self, myInput):
-        super().__init__(myInput)
 
     def readInput(self, myInput):
         result = []
