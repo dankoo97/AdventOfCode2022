@@ -85,7 +85,7 @@ class Day17(AdventOfCodeBase.AoCProblem):
         settled = {(x, -1) for x in range(7)}
         steps = 0
 
-        # 10091 ... looks like a number used for modulo, pattern probably starts repeating  somewhere
+        # 10091 ... looks like a prime number used for modulo, with cycling, pattern probably starts repeating somewhere
         print(len(self.values))
 
         # Assume that first rocks are not part of pattern, but set it up later
