@@ -127,7 +127,7 @@ class Day19(AdventOfCodeBase.AoCProblem):
 
                 if minutes == maxMinutes:
                     if items[3] > maxGeodes:
-                        print(items, bots, minutes)
+                        # print(items, bots, minutes)
                         maxGeodes = items[3]
                         maxPath = items, bots, minutes, nextBot
                     continue
