@@ -47,6 +47,7 @@ def convertToSNAFU(s):
         else:
             n += '0'
     else:
+        # Logic breaks down at 1s place, easier to implement temp patch and leave it forever
         match s:
             case -2:
                 n += '='
@@ -59,7 +60,6 @@ def convertToSNAFU(s):
             case 2:
                 n += '2'
     return n.lstrip('0')
-
 
 
 class Day25(AdventOfCodeBase.AoCProblem):
